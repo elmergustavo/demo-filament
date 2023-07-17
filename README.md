@@ -61,6 +61,13 @@ Create a symlink to the storage:
 php artisan storage:link
 ```
 
+comando para dar acceso de lectuar y escritura del storage:
+
+```sh
+chmod -R 775 ./storage/*
+chmod -R 777 ./storage/*
+```
+
 Run the dev server (the output will give the address):
 
 ```sh
